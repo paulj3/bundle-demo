@@ -1,0 +1,28 @@
+{
+  "name" : "victr/oncore-api-bundle",
+  "description" : "A demo bundle using the oncore api",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "John Paul",
+    "email" : "john.paul@vumc.org"
+  }],
+  "keywords" : [
+    "oncore api demo bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-4": { "Victr\\OncoreApiBundle\\": "" }
+  },
+  "target-dir" : "Victr/OncoreApiBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1"
+    }
+  }
+}
