@@ -1,0 +1,7 @@
+services:
+    Victr\OncoreApiBundle\Service\ApiService:
+        arguments:
+            $ldapUser: '%victr_oncore_api.ldap_user%'
+            $ldapPass: '%victr_oncore_api.ldap_pass%'
+
+    Victr\OncoreApiBundle\Util\OncoreSoapInterface: '@Victr\OncoreApiBundle\Service\ApiService'
